@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="http://content.safetyculture.com.au/news/wp-content/uploads/2013/03/asx-logo.jpg"><br>
+  <img src="https://www.asxonline.com/marketinfo/images/top_asx_logo.gif"><br>
 </div>
 
 # 05_ASX300 Stock Association Plotter
