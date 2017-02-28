@@ -5,10 +5,15 @@
 # 05_ASX100 Stock Association Plotter
 Using historical Yahoo Finance data, this project uses the example code set out
 at http://scikit-learn.org/stable/auto_examples/applications/plot_stock_market.html#sphx-glr-auto-examples-applications-plot-stock-market-py
-to plot the ASX100 stock associations
+to plot the ASX100 stock associations.
+
+Given the raw finance data from mid 2016 until the end of 2016 (6 months), the 
+program discovers which companies are correlated using sparse inverse covariance estimation.
+It then groups these correlated companies together on a 2D plot. The thicker the lines between
+two companies, the higher the covariance estimation.
 
 ##INSTRUCTIONS:
-Ensure you have matplotlib, numpy and sklearn and then run the main python file:
+Ensure you have matplotlib, numpy and sklearn libraries installed and then run the main python file:
 ```
 balistarama@Computer:~/05_ASX100 Stock Association Plotter$ python3 plot_ASX100.py
 ```
